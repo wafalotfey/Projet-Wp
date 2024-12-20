@@ -6,7 +6,6 @@
 
 - Catalogue de produits : Une large gamme de sacs et d'accessoires assortis.
 - Gestion des commandes : Système intégré pour suivre les commandes clients.
-- Paiements sécurisés : Intégration des meilleures pratiques pour assurer la sécurité des transactions.
 - Interface utilisateur intuitive : Une navigation simple et rapide pour une expérience d'achat agréable.
 
 ## Objectif du projet
