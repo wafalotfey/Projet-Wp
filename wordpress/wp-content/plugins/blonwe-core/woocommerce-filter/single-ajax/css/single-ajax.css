@@ -1,0 +1,96 @@
+.product-detail form.cart.single-ajax button {
+    position: relative;
+}
+
+.product-detail form.cart.single-ajax button svg {
+    color: #fff;
+}
+
+.klb-notice-ajax {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100005;
+	color: #fff;
+    max-width: 400px;
+}
+
+@media(max-width:600px){
+	.klb-notice-ajax {
+		left: 15px;
+		right: 15px;
+	}	
+}
+
+.klb-notice-ajax a.button {
+    text-decoration: underline !important;
+    padding: 0;
+    height: auto;
+    margin-top: 5px;
+    background-color: transparent !important;
+    font-size: 0.875rem;
+    letter-spacing: -0.03px;
+    font-weight: 600;
+	color:#fff !important;
+	line-height: 1.5rem !important
+}
+
+.klb-notice-ajax .woocommerce-error li,
+.klb-notice-ajax .woocommerce-message {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: start;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.single-product .klb-notice-ajax .woocommerce-error li,
+.single-product .klb-notice-ajax .woocommerce-message  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: start;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.klb-notice-ajax ul.woocommerce-error {
+    border: none;
+    margin: 0;
+    background: var(--color-red600);
+	position: relative;
+	border-radius: 7px;
+}
+
+.klb-notice-ajax .woocommerce-message {
+    border: none;
+    margin: 0;
+    background: var(--color-green800);
+	position: relative;
+	border-radius: 7px;
+}
+
+.klb-notice-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.klb-notice-ajax > * + * {
+    margin-top: 15px !important;
+}
+
+.klb-notice-ajax .woocommerce-message p {
+    margin-bottom: 8px;
+}
+
+form.single-ajax a.added_to_cart {
+    display: none;
+}

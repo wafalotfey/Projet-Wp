@@ -1,0 +1,39 @@
+/* ----- Order tracking ----- */
+.klb-order-tracking {
+  text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+@media screen and (min-width: 992px) {
+  .klb-order-tracking {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+.klb-order-tracking .woocommerce-form-track-order > p:not(.form-row) {
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 992px) {
+  .klb-order-tracking .woocommerce-form-track-order > p:not(.form-row) {
+    font-size: 0.9375rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.klb-order-tracking .woocommerce-form-track-order > p input {
+  text-align: center;
+  height: 2.875rem;
+}
+.klb-order-tracking .woocommerce-form-track-order > p button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 2.875rem;
+  color: #FFF !important;
+  background-color: var(--theme-primary-color) !important;
+  border-color: transparent !important;
+}
+.klb-order-tracking .woocommerce-form-track-order > p button:hover {
+  background-color: rgba(var(--theme-primary-color-RGB), 0.9) !important;
+}

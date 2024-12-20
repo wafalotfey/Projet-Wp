@@ -1,0 +1,3 @@
+<?php
+return ['project-id-version'=>'Blonwe Core','report-msgid-bugs-to'=>'','pot-creation-date'=>'2023-12-15 06:53+0000','po-revision-date'=>'2024-12-18 09:45+0000','last-translator'=>'','language-team'=>'Français','language'=>'fr_FR','plural-forms'=>'nplurals=2; plural=n > 1;','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','x-loco-source-locale'=>'tr_TR','x-generator'=>'Loco https://localise.biz/','x-poedit-keywordslist'=>'_;gettext;gettext_noop;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n:1,2','x-poedit-basepath'=>'.','x-poedit-searchpath-0'=>'..','x-loco-parser'=>'loco_parse_po','x-loco-version'=>'2.6.14; wp-6.7.1','messages'=>['Add to cart'=>'Ajouter à la carte
+','Add to wishlist'=>'ajouter au favoris']];

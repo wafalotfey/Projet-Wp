@@ -1,0 +1,190 @@
+/* Newsletter */
+.klb-site-newsletter {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  padding: 0 .9375rem;
+  background-color: rgba(0, 0, 0, .75);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: all .2s cubic-bezier(.28,.12,.22,1);
+  -ms-transition: all .2s cubic-bezier(.28,.12,.22,1);
+  transition: all .2s cubic-bezier(.28,.12,.22,1);
+}
+.popup-visible .klb-site-newsletter {
+  opacity: 1 !important;
+  visibility: visible;
+  pointer-events: auto;
+}
+.klb-site-newsletter .newsletter-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+    max-width: 50rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.klb-site-newsletter .newsletter-inner {
+  padding: 30px;
+  background-color: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transform: scale(.9) translateZ(0);
+  -ms-transform: scale(.9) translateZ(0);
+  transform: scale(.95) translateZ(0);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50%;
+}
+.popup-visible .klb-site-newsletter .newsletter-inner {
+  -webkit-transform: scale(1) translate(0) rotateX(0);
+  -ms-transform: scale(1) translate(0) rotateX(0);
+  transform: scale(1) translate(0) rotateX(0);
+}
+.klb-site-newsletter .newsletter-inner > * {
+  position: relative;
+  width: 100%;
+}
+.klb-site-newsletter .newsletter-close {
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+.klb-site-newsletter .entry-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.klb-site-newsletter .entry-desc {
+  margin-bottom: 20px;
+}
+.klb-site-newsletter-form input[type="email"], .klb-site-newsletter-form button, .klb-site-newsletter-form .button {
+  font-size: 13px;
+  width: 100%;
+  height: 48px;
+}
+.klb-site-newsletter-form .button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+.klb-site-newsletter-form .form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.klb-site-newsletter-form .form-checkbox span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 64rem) {
+  .klb-site-newsletter .newsletter-inner {
+    padding: 50px;
+  }
+  .klb-site-newsletter .entry-title {
+    font-size: 2.25rem;
+  }
+}
+
+.popup-visible .klb-site-newsletter .newsletter-inner{
+	z-index: 999;
+}
+
+.newsletter-popup-overlay {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+.klb-site-newsletter-form .mc4wp-form input {
+    margin-bottom: 1rem;
+}
+
+.klb-site-newsletter-form .mc4wp-form input[type="submit"],
+.klb-site-newsletter-form .mc4wp-form button {
+    font-size: 13px;
+    height: 48px;
+	margin-bottom: 1rem;
+	display: inherit;
+    text-align: left;
+    padding: 0 0.9375rem;
+}
+
+.klb-site-newsletter label.form-checkbox {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.klb-site-newsletter label.form-checkbox span {
+    margin-left: 10px;
+}
+
+.klb-site-newsletter .mc4wp-form i {
+    display: none;
+}
+
+.newsletter-image {
+    z-index: 9999;
+    box-shadow: 0 0 15px rgb(0 0 0 / 75%);
+    clip-path: inset(0px -15px 0px 0px);
+	position: relative;
+	width: 50%;
+}
+
+@media(max-width:1024px){
+	.newsletter-image {
+		display:none;
+	}
+	
+	.klb-site-newsletter .newsletter-inner {
+		border-radius: 10px;
+		width:100%;
+	}
+}
+
+img.colored-border {
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.klb-site-newsletter input.dontshow {
+    margin-bottom: 3px;
+}
+
+.newsletter-close svg {
+    width: 0.875rem;
+    fill: currentColor;
+}

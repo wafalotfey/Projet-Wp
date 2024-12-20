@@ -1,0 +1,341 @@
+.site-header .header-action.location-button a .action-text p {
+    text-transform: capitalize;
+}
+
+.site-header .header-action .action-icon i.klb-ecommerce-icon-location {
+  font-size: 1.5rem;
+  text-shadow: 0 0 0;
+}
+
+.site-header .header-action.location-button a {
+  padding: 0.125rem 0.625rem 0.125rem 0.3125rem;
+  height: 3.125rem;
+  border-radius: var(--theme-radius-form);
+}
+.site-header .header-action.location-button a .action-icon {
+  width: 1.875rem;
+}
+.site-header .header-action.location-button a .action-text p {
+  max-width: 110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.site-header .header-action.location-button.bordered a {
+  border: 1px solid;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(27, 31, 34, 0.045);
+          box-shadow: 0 1px 2px 0 rgba(27, 31, 34, 0.045);
+}
+body[data-color=custom][data-theme=light] .site-header .header-action.location-button.bordered a {
+  border-color: rgba(var(--color-rgb), 0.2);
+}
+body[data-color=default] .site-header .header-action.location-button.bordered a {
+  border-color: var(--color-gray400);
+}
+body[data-theme=dark] .site-header .header-action.location-button.bordered a, body[data-color=custom][data-theme=dark] .site-header .header-action.location-button.bordered a {
+  border-color: var(--color-gray400);
+}
+body[data-color=custom][data-theme=light] .site-header .header-action.location-button.bordered a:hover {
+  border-color: rgba(var(--color-rgb), 0.25);
+}
+body[data-color=default] .site-header .header-action.location-button.bordered a:hover {
+  border-color: var(--color-gray500);
+}
+body[data-theme=dark] .site-header .header-action.location-button.bordered a:hover, body[data-color=custom][data-theme=dark] .site-header .header-action.location-button.bordered a:hover {
+  border-color: var(--color-gray500);
+}
+.site-header .header-action.location-button.filled a {
+  background-color: var(--color-orange50);
+}
+
+.klb-modal-root.location-modal .klb-modal-inner {
+  max-width: 32.5rem;
+  width: 100%;
+}
+.klb-modal-root.location-modal .klb-modal-header {
+  margin-bottom: 0.625rem;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .klb-modal-header {
+    padding: 1.5625rem 1.875rem 0.625rem;
+  }
+}
+.klb-modal-root.location-modal .klb-modal-header .entry-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .klb-modal-header .entry-title {
+    font-size: 1.125rem;
+  }
+}
+.klb-modal-root.location-modal .klb-location-body {
+  white-space: normal;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .klb-location-body {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 2.1875rem;
+  }
+}
+.klb-modal-root.location-modal .klb-location-body .entry-title {
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .klb-location-body .entry-title {
+    font-size: 1.25rem;
+  }
+}
+.klb-modal-root.location-modal .klb-location-body .entry-description {
+  font-size: 0.875rem;
+}
+.klb-modal-root.location-modal .klb-location-body .entry-description p {
+  opacity: 0.6;
+}
+.klb-modal-root.location-modal .location-search-form {
+  margin-bottom: 0.625rem;
+}
+.klb-modal-root.location-modal .location-search-form form {
+  position: relative;
+}
+.klb-modal-root.location-modal .location-search-form form input {
+  height: 2.75rem;
+  line-height: 2.75rem;
+  padding-left: 2.375rem;
+}
+.klb-modal-root.location-modal .location-search-form form input::-webkit-input-placeholder {
+  font-weight: 400;
+}
+.klb-modal-root.location-modal .location-search-form form input::-moz-placeholder {
+  font-weight: 400;
+}
+.klb-modal-root.location-modal .location-search-form form input:-ms-input-placeholder {
+  font-weight: 400;
+}
+.klb-modal-root.location-modal .location-search-form form input::-ms-input-placeholder {
+  font-weight: 400;
+}
+.klb-modal-root.location-modal .location-search-form form input::placeholder {
+  font-weight: 400;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .location-search-form form input {
+    height: 2.875rem;
+    line-height: 2.9375rem;
+    padding-left: 2.8125rem;
+  }
+}
+.klb-modal-root.location-modal .location-search-form form i {
+  position: absolute;
+  font-size: 1rem;
+  left: 0.625rem;
+  top: 0.5625rem;
+  pointer-events: none;
+}
+@media screen and (min-width: 992px) {
+  .klb-modal-root.location-modal .location-search-form form i {
+    font-size: 1.125rem;
+    left: 0.75rem;
+    top: 0.5625rem;
+  }
+}
+.klb-modal-root.location-modal .store-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.klb-modal-root.location-modal .store-list ul li + li {
+  border-top: 1px solid rgba(var(--color-rgb), 0.1);
+}
+.klb-modal-root.location-modal .store-list ul .store-item > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: currentColor;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-checkbox {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid;
+  border-radius: 50%;
+  top: 0.1875rem;
+  margin-right: 1.25rem;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-checkbox::before {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--theme-primary-color);
+  opacity: 0;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-address {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.5;
+  margin-bottom: 0.3125rem;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-status {
+  font-size: 0.875rem;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-status .status {
+  font-weight: 500;
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-status .status.opened {
+  color: var(--color-green600);
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-status .status.closed {
+  color: var(--color-red600);
+}
+.klb-modal-root.location-modal .store-list ul .store-item .store-status strong {
+  font-weight: 600;
+}
+.klb-modal-root.location-modal .store-list ul .store-item:not(.active):hover .store-checkbox {
+  -webkit-box-shadow: 0 0 0 1px currentColor;
+          box-shadow: 0 0 0 1px currentColor;
+}
+.klb-modal-root.location-modal .store-list ul .store-item.active .store-checkbox {
+  border-color: var(--theme-primary-color);
+}
+.klb-modal-root.location-modal .store-list ul .store-item.active .store-checkbox::before {
+  opacity: 1;
+}
+.klb-modal-root.location-modal .location-list {
+  max-height: 25.9375rem;
+}
+.klb-modal-root.location-modal .location-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.klb-modal-root.location-modal .location-list ul li:not(.active) + li:not(.active) {
+  border-top: 1px solid rgba(var(--color-rgb), 0.1);
+}
+.klb-modal-root.location-modal .location-list ul .location-item > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: currentColor;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  border-radius: var(--theme-radius-base);
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-checkbox {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid;
+  border-radius: 50%;
+  top: 0.1875rem;
+  margin-left: auto;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-checkbox::before {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--theme-primary-color);
+  opacity: 0;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-detail {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 1.25rem;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-address {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-address + .location-info {
+  margin-top: 0.625rem;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  margin-top: 0.3125rem;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-info .location-info-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-info .location-info-item i {
+  font-size: 0.875rem;
+  color: var(--color-green700);
+  margin-right: 0.25rem;
+}
+.klb-modal-root.location-modal .location-list ul .location-item .location-info .location-info-item i::before {
+  margin: 0;
+}
+.klb-modal-root.location-modal .location-list ul .location-item:not(.active):hover .location-checkbox {
+  -webkit-box-shadow: 0 0 0 1px currentColor;
+          box-shadow: 0 0 0 1px currentColor;
+}
+body[data-color=custom][data-theme=light] .klb-modal-root.location-modal .location-list ul .location-item.active a {
+  background-color: rgba(var(--color-rgb), 0.07);
+}
+body[data-color=default] .klb-modal-root.location-modal .location-list ul .location-item.active a, body[data-color=custom][data-theme=dark] .klb-modal-root.location-modal .location-list ul .location-item.active a {
+  background-color: var(--color-gray50);
+}
+.klb-modal-root.location-modal .location-list ul .location-item.active a .location-checkbox {
+  border-color: var(--theme-primary-color);
+}
+.klb-modal-root.location-modal .location-list ul .location-item.active a .location-checkbox::before {
+  opacity: 1;
+}

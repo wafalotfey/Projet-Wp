@@ -1,0 +1,192 @@
+div#klb-blogmeta-gallery {
+    display: none;
+}
+
+div#klb-blogmeta-audio {
+    display: none;
+}
+
+div#klb-blogmeta-video {
+    display: none;
+}
+
+*[class*="mega_main"] #wpbody select {
+    line-height: 1.5;
+}
+
+form#purchase_code_form,
+.c-inner {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #C0CCD9;
+    padding: 10px 20px;
+	margin-top: 40px;
+}
+
+div#klb-theme-registration {
+    margin: 5px 15px 2px;
+}
+
+div#klb-theme-registration:before,div#klb-theme-registration:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#klb-theme-registration div#col-left {
+    width: 50%;
+}
+
+#klb-theme-registration div#col-right {
+    width: 50%;
+}
+
+.data-response {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #C0CCD9;
+    padding: 10px 20px;
+    color: #e03a3a;
+    font-weight: 500;
+    width: 50%;
+    margin: 5px 15px 2px;
+}
+
+.data-response.success {
+    color: #068c06;
+}
+
+.control-section-kirki-default, .control-section-kirki-outer {
+    min-height: auto !important;
+}
+
+.wpclever-notice.notice {
+    display: none !important;
+}
+
+#klb_video_product_data p.form-field {
+    display: block !important;
+}
+
+
+aside.site-offcanvas {
+    z-index: 999999;
+}
+
+@media(min-width:769px){
+	body .search-holder {
+		top: 32px;
+	}
+}
+
+@media(min-width:769px){
+	header.site-header.transparent.header-type3 {
+		top: 32px;
+	}
+}
+
+@media screen and (max-width: 64.0625rem){
+	.search-holder {
+		margin-top: 46px;
+	}
+}
+
+body .site-drawer {
+    z-index: 999999;
+}
+
+#sidebar .widget_klb_product_categories li.cat-parent {
+    position: relative;
+}
+
+.single-product-wrapper form.cart .variations tr .label {
+    padding-left: 0;
+}
+
+.single-product-sticky.active {
+    margin-top: 32px !important;
+}
+
+.site-header.sticky-header .header-main {
+    top: 32px;
+}
+
+#klb-theme-registration .klb-help-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-top: 40px;
+}
+
+.klb-help-container .klb-help-item {
+    text-align: center;
+}
+
+.klb-help-container .klb-help-item svg {width: 70px;height: 70px;}
+
+.klb-help-container .klb-help-item a {
+    text-decoration: none;
+    color: #1d2327;
+}
+
+.klb-help-container .klb-help-item h2 {
+    margin-bottom: 0;
+}
+
+
+#klb-theme-registration .klb-help-container.registered-container {
+    padding: 20px 35px;
+    justify-content: start;
+    gap: 20px;
+}
+
+.registered-container .registered-left svg {
+    width: 70px;
+    height: 70px;
+}
+
+.registered-container p {
+    margin: 0;
+}
+
+.registered-container h2 {
+    margin-top: 0;
+}
+
+.registered-container .registered-left, .registered-container .registered-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+[class*="klb-table-row"]>div {
+    flex: 1 0 0%;
+}
+
+[class*="klb-table-row"] {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    min-width: 500px;
+}
+
+.klb-table.klb-odd [class*="klb-table-row"]:nth-child(odd) {
+    background-color: #F7F7F7;
+}
+
+.klb-table-row>div:first-child {
+    font-weight: 700;
+}
+
+.klb-status-error {
+    color: red;
+}

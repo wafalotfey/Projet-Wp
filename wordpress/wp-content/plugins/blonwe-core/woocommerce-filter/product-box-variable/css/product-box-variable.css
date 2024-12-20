@@ -1,0 +1,197 @@
+.klb-notice-ajax {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100005;
+	color: #fff;
+    max-width: 400px;
+}
+
+@media(max-width:600px){
+	.klb-notice-ajax {
+		left: 15px;
+		right: 15px;
+	}	
+}
+
+.klb-notice-ajax a.button {
+    text-decoration: underline !important;
+    padding: 0;
+    height: auto;
+    margin-top: 5px;
+    background-color: transparent !important;
+    font-size: 0.875rem;
+    letter-spacing: -0.03px;
+    font-weight: 600;
+	color:#fff !important;
+	line-height: 1.5rem !important;
+}
+
+.klb-notice-ajax .woocommerce-error li,
+.klb-notice-ajax .woocommerce-message {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.single-product .klb-notice-ajax .woocommerce-error li,
+.single-product .klb-notice-ajax .woocommerce-message  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.klb-notice-ajax ul.woocommerce-error {
+    border: none;
+    margin: 0;
+    background: var(--color-red600);
+	position: relative;
+	border-radius: 7px;
+}
+
+.klb-notice-ajax .woocommerce-message {
+    border: none;
+    margin: 0;
+    background: var(--color-green800);
+	position: relative;
+	border-radius: 7px;
+}
+
+.klb-notice-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.klb-notice-ajax > * + * {
+    margin-top: 15px !important;
+}
+
+.klb-notice-ajax .woocommerce-message p {
+    margin-bottom: 8px;
+}
+
+/* Product Variable on Archive*/
+.products .product.product-type-variable .single_variation_wrap > * {
+    display: none;
+}
+
+.products .product.product-type-variable .woocommerce-product-gallery {
+	opacity:1 !important;
+}
+
+.products .product.product-type-variable table.variations th.label {
+    display: none;
+}
+
+.products .product.product-type-variable .klbtheme-terms {
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 4px;
+}
+
+.products .product.product-type-variable table.variations td.value {
+    border: 0;
+    padding: 0;
+}
+
+.products .product.product-type-variable .klbtheme-type-button span.klbtheme-term {
+    padding: 2px;
+	font-size: 12px;	
+}
+
+.products .product.product-type-variable a.reset_variations {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    line-height: 1;
+	display: none !important
+}
+
+.products .product.product-type-variable table.variations {
+    position: relative;
+}
+
+.products .product.product-type-variable table.variations tr + tr {
+    margin-top: 10px;
+    display: block;
+}
+
+.products .product.product-type-variable .klbtheme-type-color .klbtheme-term {
+    width: 15px;
+    height: 15px;
+}
+
+.products .product.product-type-variable .klbtheme-type-color span.klbtheme-term.klbtheme-selected:after {
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+	border: 1px solid #000;
+}
+
+.products .product.product-type-variable form.variations_form {
+    margin-bottom: 5px;
+}
+
+.products .product.product-type-variable .woocommerce-variation-price span.price {
+    font-size: 13px;
+    font-weight: 500;
+    color: #768088;
+    margin-top: 5px;
+}
+
+.products .product.product-type-variable .woocommerce-variation-availability {
+    display: none;
+}
+
+.products .product.product-type-variable .product_type_variable {
+	position: relative;
+}
+
+.products .product.product-type-variable .product_type_variable.loading i {
+	opacity: 0;
+}
+
+.products .product.product-type-variable .product_type_variable.loading:after {
+    opacity: 1;
+    animation: klb-rotate 450ms infinite linear;
+}	
+
+@keyframes klb-rotate {
+  100% {
+    transform: rotate(360deg); } 
+}
+
+.products .product.product-type-variable .product_type_variable:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
+    opacity: 0;
+    transition: opacity .2s ease;
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(161 161 161 / 40%);
+    border-left-color: #000;
+    border-radius: 50%;
+    vertical-align: middle;
+}

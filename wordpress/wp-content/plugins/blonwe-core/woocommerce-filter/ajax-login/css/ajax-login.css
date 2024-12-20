@@ -1,0 +1,18 @@
+button.woocommerce-form-login__submit svg.loader-image.preloader.quick-view,
+button.woocommerce-form-register__submit svg.loader-image.preloader.quick-view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+button.woocommerce-form-login__submit,
+button.woocommerce-form-register__submit {
+    position: relative;
+}
+
+button.woocommerce-button + ul.woocommerce-error {
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+}

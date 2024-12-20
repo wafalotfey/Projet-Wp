@@ -1,0 +1,37 @@
+.product-badges {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;	
+}
+
+.product-badges .badge {
+    background: #868E96;
+}
+
+.badge.style-2{
+	border-radius: 1.5rem;
+}
+
+.badge.style-3 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: .875rem;
+    width: 2.875rem;
+    height: 2.875rem;
+    font-size: .875rem !important;
+    max-height: none;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.badge + .badge {
+    margin-top: 3px;
+}
